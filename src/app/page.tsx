@@ -49,7 +49,7 @@ export default function Home() {
 			}}
 		>
 			<Navbar />
-			<section className="container pt-[8.125rem] transition-opacity duration-500">
+			<section className="container pt-[6.125rem] transition-opacity duration-500">
 				<div className="xl:w-[52.5625rem]">
 					<h2 className="text-primary font-bold text-[5rem] leading-tight pb-4">
 						Where Class meets Safety
@@ -63,11 +63,17 @@ export default function Home() {
 						EXPLORE OPTIONS
 					</button>
 				</div>
-				<div className="flex flex-row gap-14 justify-end pt-[7.625rem]">
-					<button onClick={goToPrevious} className="text-primary text-2xl mr-4">
+				<div className="flex flex-row gap-14 justify-end pt-[4.625rem]">
+					<button
+						onClick={goToPrevious}
+						className="text-primary text-2xl mr-4"
+					>
 						{<GoToPrevious />}
 					</button>
-					<button onClick={goToNext} className="text-primary text-2xl">
+					<button
+						onClick={goToNext}
+						className="text-primary text-2xl"
+					>
 						{<GoToNext />}
 					</button>
 				</div>
