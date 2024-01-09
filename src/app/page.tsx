@@ -45,10 +45,11 @@ export default function Home() {
 				backgroundImage: bgImages[currentImageIndex],
 				backgroundRepeat: "no-repeat",
 				backgroundSize: "cover",
+				opacity: 1,
 			}}
 		>
 			<Navbar />
-			<section className="container pt-[8.125rem]">
+			<section className="container pt-[8.125rem] transition-opacity duration-500">
 				<div className="xl:w-[52.5625rem]">
 					<h2 className="text-primary font-bold text-[5rem] leading-tight pb-4">
 						Where Class meets Safety
