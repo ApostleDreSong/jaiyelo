@@ -6,27 +6,27 @@ export const navlinks = [
 	},
 	{
 		title: "SUVs",
-		link: "/",
+		link: "/views/pages/suvs",
 		target: "",
 	},
 	{
 		title: "Pickups",
-		link: "/",
+		link: "/views/pages/pickups",
 		target: "",
 	},
 	{
 		title: "Power-bikes",
-		link: "/",
+		link: "/views/pages/power-bikes",
 		target: "",
 	},
 	{
 		title: "Bouncers",
-		link: "/",
+		link: "/views/pages/bouncers",
 		target: "",
 	},
 	{
 		title: "Contact us",
-		link: "/",
+		link: "/views/pages/contact-us",
 		target: "",
 	},
 ];

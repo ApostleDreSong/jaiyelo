@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Navbar from "./views/navbar/navbar";
 import GoToNext from "./components/goToNext";
 import GoToPrevious from "./components/goToPrevious";
@@ -64,16 +64,10 @@ export default function Home() {
 					</button>
 				</div>
 				<div className="flex flex-row gap-14 justify-end pt-[4.625rem]">
-					<button
-						onClick={goToPrevious}
-						className="text-primary text-2xl mr-4"
-					>
+					<button onClick={goToPrevious} className="text-primary text-2xl mr-4">
 						{<GoToPrevious />}
 					</button>
-					<button
-						onClick={goToNext}
-						className="text-primary text-2xl"
-					>
+					<button onClick={goToNext} className="text-primary text-2xl">
 						{<GoToNext />}
 					</button>
 				</div>

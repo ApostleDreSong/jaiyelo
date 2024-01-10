@@ -23,7 +23,7 @@
 
 // export default Navbar;
 
-import React, { useState } from "react";
+import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { navlinks } from "./navlinks";
@@ -43,10 +43,7 @@ const Navbar = () => {
 		<>
 			{/* Navigation */}
 			<section className="container flex flex-row justify-between items-center pt-[3.5625rem]">
-				<div
-					onClick={handleMenuClick}
-					className="text-white cursor-pointer"
-				>
+				<div onClick={handleMenuClick} className="text-white cursor-pointer">
 					MENU
 				</div>
 				<div>
