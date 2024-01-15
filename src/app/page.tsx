@@ -51,10 +51,10 @@ export default function Home() {
 			<Navbar />
 			<section className="container pt-[6.125rem] transition-opacity duration-500">
 				<div className="xl:w-[52.5625rem]">
-					<h2 className="text-primary font-bold text-[5rem] leading-tight pb-4">
+					<h2 className="text-primary font-bold text-5xl sm:text-[5rem] leading-tight pb-4">
 						Where Class meets Safety
 					</h2>
-					<p className="text-primary text-base w-[80%] pb-14">
+					<p className="text-primary text-base md:w-[80%] pb-14">
 						A celebrity like you should always show up with the perfect car and
 						detail from us, smashing those events like the star you are!
 					</p>
@@ -64,10 +64,16 @@ export default function Home() {
 					</button>
 				</div>
 				<div className="flex flex-row gap-14 justify-end pt-[4.625rem]">
-					<button onClick={goToPrevious} className="text-primary text-2xl mr-4">
+					<button
+						onClick={goToPrevious}
+						className="text-primary text-2xl mr-4"
+					>
 						{<GoToPrevious />}
 					</button>
-					<button onClick={goToNext} className="text-primary text-2xl">
+					<button
+						onClick={goToNext}
+						className="text-primary text-2xl"
+					>
 						{<GoToNext />}
 					</button>
 				</div>
